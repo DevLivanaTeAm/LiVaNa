@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Lar) @Z7777DONE.--
---   This Is The Source Channel @Z7777DONE .   --
+-- This Source Was Developed By (Lar) @FFF70F.--
+--   This Is The Source Channel @FFF70F .   --
 --           - 𝖲𝗈𝗎𝗋𝖼𝖾 LiVaNa -                 --
---        -- https://t.me/Z7777DONE --         --
+--        -- https://t.me/FFF70F --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -1397,12 +1397,12 @@ local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/ivviv&caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == '‹ مبرمج السورس ›' or text == 'علوش' or text == 'علش' or text == 'مطور السورس' or text == 'المبرمج' then
 local tt =[[
-‹ : [مبرمج السورس](https://t.me/Z7777DONE) .
+‹ : [مبرمج السورس](https://t.me/FFF70F) .
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '‹ مبرمج السورس .', url = "https://t.me/Z7777DONE"}},}
+keyboard.inline_keyboard = {{{text = '‹ مبرمج السورس .', url = "https://t.me/FFF70F"}},}
 local msgg = msg_id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/Z7777DONE&caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/FFF70F&caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == '‹ تحديثات السورس ›' or text == 'قناة التحديثات' or text == 'تحديثات السورس' then
 local tt =[[
 ‹ : [Exp Source](https://t.me/ivviv) .
@@ -1574,7 +1574,7 @@ else
 Get_Json = Get_Json..',"'..v..'"' end end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"Z7777DONE"}'
+Get_Json = Get_Json..'"Dev":"FFF70F"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -8473,7 +8473,7 @@ Welcome To Source
 ‹ : [𝖲𝗈𝗎𝗋𝖼𝖾 LiVaNa](https://t.me/ivviv) .
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '‹ Source Channel ›', url = "https://t.me/ivviv"}},{{text = '‹ Developer', url = "https://t.me/Z7777DONE"},{text = 'Tws LiVaNa ›', url = "https://t.me/aaeqoBOT"}},{{text = '‹ تـفآصيل. ›', url = "https://t.me/OO66R"}}}
+keyboard.inline_keyboard = {{{text = '‹ Source Channel ›', url = "https://t.me/ivviv"}},{{text = '‹ Developer', url = "https://t.me/FFF70F"},{text = 'Tws LiVaNa ›', url = "https://t.me/aaeqoBOT"}},{{text = '‹ تـفآصيل. ›', url = "https://t.me/OO66R"}}}
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/ivviv&caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == 'الاوامر' then
@@ -9360,10 +9360,10 @@ Redis:sadd(TheLiVaNa..'LiVaNa:Num:User:Pv',msg.sender.user_id)
 if not msg.DevelopersAS then
 if not Redis:get(TheLiVaNa.."LiVaNa:Start:Bot") then
 local CmdStart = '‹ : مرحبا انا بوت اسمي ‹ '..(Redis:get(TheLiVaNa.."LiVaNa:Name:Bot") or "ليفانا")..' ›\n‹ : اختصاصي التسليه وحماية المجموعات\n‹ : من المخربين والتفليش والسبام والخ\n‹ : فقط قم برفعي ادمن في مجموعتك\n‹ : وارسل كلمة ↫ ‹ تفعيل ›'
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/ivviv'},{text = '‹ لتنصيب بوت ›', url = 't.me/Z7777DONE'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/ivviv'},{text = '‹ لتنصيب بوت ›', url = 't.me/FFF70F'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
 return LuaTele.sendText(msg_chat_id,msg_id,CmdStart,"md",false, false, false, false, reply_markup)
 else
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/ivviv'},{text = '‹ لتنصيب بوت ›', url = 't.me/Z7777DONE'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/ivviv'},{text = '‹ لتنصيب بوت ›', url = 't.me/FFF70F'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
 return LuaTele.sendText(msg_chat_id,msg_id,Redis:get(TheLiVaNa.."LiVaNa:Start:Bot"),"md",false, false, false, false, reply_markup) end
 else
 local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true, data = {{{text = '‹  السورس  ›',type = 'text'},{text = '‹  اسم البوت  ›', type = 'text'},},{{text = '‹  المطورين  ›',type = 'text'},{text = '‹  الاحصائيات  ›',type = 'text'},},{{text = '‹  الاذاعة  ›',type = 'text'},{text = '‹  العام  ›', type = 'text'},},{{text = '‹  الاشتراك الاجباري  ›',type = 'text'},{text = '‹  التفعيل والتعطيل  ›',type = 'text'},},{{text = '‹  ردود الخاص  ›',type = 'text'},},}}
